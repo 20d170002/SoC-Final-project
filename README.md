@@ -22,7 +22,7 @@ Checkpoint 3
 We first saw a basic facial features recognition using cv2 video system. The notebooks are attached.
 
 Task 7
-Making Colab Based Face Detection + Recognition + Cluster Project : Understood the raw code given by our mentor. First installed the required libraries, then mounted google drive, further selected source of images (I chose online). Created the ouput directory for downloading images, and downloaded them. Then got the face encodings (trained the model). 
+Making Colab Based Face Detection + Recognition + Cluster Project : Understood the raw code given by our mentor. First installed the required libraries, then mounted google drive, further selected source of images (I chose online). Created the output directory for downloading images, and downloaded them. Then got the face encodings (trained the model). 
 Now we uploaded a test image to detect and recognize each of the faces by bounding it in a box and displaying person's "name".
 I added an extra feature of "facial attributes analysis" which returns the age, gender, emotion and race of each detected face. 
 So the mechanism behind this was, before displaying bounding box and name, I copied the "image" as "image2". So, I used "image" for displaying box and name of each person. And, used image2 for cropping each of the faces and detecting their facial attributes using deepface analyze function (had to use "image2" instead of "image" because the bounding box was creating problem in detecting the face).
