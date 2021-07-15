@@ -1,4 +1,6 @@
-Checkpoint 1
+Checkpoint 1 (11th April, 2021)
+
+
 Task 1
 Pandas exercises : We learnt how to import pandas and numpy and used some library functions in order to extract the information about the dataset.
 Task 2 
@@ -6,7 +8,8 @@ Matplotlib exercises : In this, we tried to get the statistical info about diffe
 
 Overall we learnt several library functions, numpy, panda, seaborn to fetch as much information of the dataset as we can.The practice notebooks have also been attached for the same.
 
-Checkpoint 2
+Checkpoint 2  (8th June, 2021)
+
 In the second phase - Week 1 of our project we were introduced to openCV, anaconda, machine learning. First of all we watched tutorials for openCV, pytorch basics. Understood image manipulations processing and image segmentation contours.Performed a live sketcher project. 
 In Week 2, we were introduced to deep leaning, neural network for which we watched a playlist. We got an idea of how does neural networking take place. We looked at Deep learning library - pytorch.
 In week 3, we covered live age and gender detection.
@@ -18,12 +21,12 @@ Task 5
 Age and Gender Detection on YouTube Videos : This was a modified code, where it detected age and gender for a youtube video.
 All the practice notebooks are attached.
 
-Checkpoint 3
-We first saw a basic facial features recognition using cv2 video system. The notebooks are attached.
+Checkpoint 3 (18th July, 2021)
+We first saw a basic facial features recognition system using cv2 tutorial. The notebooks are attached.
 
 Task 7
 Making Colab Based Face Detection + Recognition + Cluster Project : Understood the raw code given by our mentor. First installed the required libraries, then mounted google drive, further selected source of images (I chose online). Created the output directory for downloading images, and downloaded them. Then got the face encodings (trained the model). 
-Now we uploaded a test image to detect and recognize each of the faces by bounding it in a box and displaying person's "name".
+Now we uploaded a test image to detect and recognize each of the faces by bounding it in a box and displaying person's name. Here we used the dlib library and face_recognition module that outputs a list of 128 real-valued numbers that are used to quantify a face.
 I added an extra feature of "facial attributes analysis" which returns the age, gender, emotion and race of each detected face. 
 So the mechanism behind this was, before displaying bounding box and name, I copied the "image" as "image2". So, I used "image" for displaying box and name of each person. And, used image2 for cropping each of the faces and detecting their facial attributes using deepface analyze function (had to use "image2" instead of "image" because the bounding box was creating problem in detecting the face).
 It returned correct results on testing.
