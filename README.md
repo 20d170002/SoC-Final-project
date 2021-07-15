@@ -1,5 +1,5 @@
-Checkpoint 1//
-Task 1//
+Checkpoint 1
+Task 1
 Pandas exercises : We learnt how to import pandas and numpy and used some library functions in order to extract the information about the dataset.
 Task 2 
 Matplotlib exercises : In this, we tried to get the statistical info about different columns of the dataset. And also plotted various kinds of graphs for the data such as histograms and box type.
