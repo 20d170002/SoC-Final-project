@@ -12,10 +12,10 @@ In Week 2, we were introduced to deep leaning, neural network for which we watch
 In week 3, we covered live age and gender detection.
 
 Task 4
-Live Age and Gender Detection
-Task 5
-Age and Gender Detection on YouTube Videos : We watched a 2hr long video, and understood and wrote the code to detect live age and gender. But it turned out that it wasn't trained properly since it gave wrong results sometimes.
+Live Age and Gender Detection : We watched a 2hr long video, and understood and wrote the code to detect live age and gender. But it turned out that it wasn't trained properly since it gave wrong results sometimes.
 
+Task 5
+Age and Gender Detection on YouTube Videos : This was a modified code, where it detected age and gender for a youtube video.
 All the practice notebooks are attached.
 
 Checkpoint 3
