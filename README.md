@@ -27,6 +27,7 @@ Age and Gender Detection on YouTube Videos : This was a modified code, where it 
 All the practice notebooks are attached.
 
 Checkpoint 3 (18th July, 2021)
+
 We first saw a basic facial features recognition system using cv2 tutorial. The notebooks are attached.
 
 Task 7 (C2 + B6)
