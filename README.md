@@ -1,9 +1,9 @@
 Checkpoint 1 (11th April, 2021)
 
 
-Task 1
+Task 1 (A1)
 Pandas exercises : We learnt how to import pandas and numpy and used some library functions in order to extract the information about the dataset.
-Task 2 
+Task 2 (A2)
 Matplotlib exercises : In this, we tried to get the statistical info about different columns of the dataset. And also plotted various kinds of graphs for the data such as histograms and box type.
 
 Overall we learnt several library functions, numpy, panda, seaborn to fetch as much information of the dataset as we can.The practice notebooks have also been attached for the same.
@@ -14,17 +14,17 @@ In the second phase - Week 1 of our project we were introduced to openCV, anacon
 In Week 2, we were introduced to deep leaning, neural network for which we watched a playlist. We got an idea of how does neural networking take place. We looked at Deep learning library - pytorch.
 In week 3, we covered live age and gender detection.
 
-Task 4
+Task 4 (B3)
 Live Age and Gender Detection : We watched a 2hr long video, and understood and wrote the code to detect live age and gender. But it turned out that it wasn't trained properly since it gave wrong results sometimes.
 
-Task 5
+Task 5 (B4)
 Age and Gender Detection on YouTube Videos : This was a modified code, where it detected age and gender for a youtube video.
 All the practice notebooks are attached.
 
 Checkpoint 3 (18th July, 2021)
 We first saw a basic facial features recognition system using cv2 tutorial. The notebooks are attached.
 
-Task 7
+Task 7 (C2 + B6)
 Making Colab Based Face Detection + Recognition + Cluster Project : Understood the raw code given by our mentor. First installed the required libraries, then mounted google drive, further selected source of images (I chose online). Created the output directory for downloading images, and downloaded them. Then got the face encodings (trained the model). 
 Now we uploaded a test image to detect and recognize each of the faces by bounding it in a box and displaying person's name. Here we used the dlib library and face_recognition module that outputs a list of 128 real-valued numbers that are used to quantify a face.
 I added an extra feature of "facial attributes analysis" which returns the age, gender, emotion and race of each detected face. 
